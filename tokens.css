@@ -1,0 +1,29 @@
+:root {
+  /* Surfaces */
+  --bg: #0d0b12;
+  --surface: #151220;
+  --surface-2: #1d192b;
+  --line: #2b2640;
+
+  /* Text */
+  --text: #ede9f7;
+  --muted: #a8a1bd;
+
+  /* Accent: one restrained violet */
+  --accent: #7c3aed;
+  --accent-hover: #6d28d9;
+  --accent-text: #b9a1ff;
+  --accent-soft: rgba(124, 58, 237, 0.16);
+
+  /* Type */
+  --font-display: 'Avenir Next', 'Segoe UI Variable Display', 'Segoe UI', ui-sans-serif, system-ui, sans-serif;
+  --font-body: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  /* Shape and space */
+  --radius-panel: 20px;
+  --radius-control: 12px;
+  --radius-pill: 999px;
+  --tap: 44px;
+  --page-width: 1120px;
+  --gutter: clamp(16px, 4vw, 32px);
+}
